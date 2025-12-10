@@ -11,7 +11,6 @@ It provides an organized and intuitive interface that helps users visualize room
 - Easy integration into any React application
 
 🚀 Use Case
-Ideal for:
 
 - Hotels
 - Meeting rooms
