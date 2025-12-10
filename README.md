@@ -1,4 +1,5 @@
 📅 React Rooms Calendar
+
 React Rooms Calendar is a reusable React.js component that displays the bookings of multiple rooms in a single, unified calendar view.
 It provides an organized and intuitive interface that helps users visualize room availability and scheduled reservations at a glance.
 
