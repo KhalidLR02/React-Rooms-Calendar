@@ -1,8 +1,17 @@
-# React + Vite
+📅 React Rooms Calendar
+React Rooms Calendar is a reusable React.js component that displays the bookings of multiple rooms in a single, unified calendar view.
+It provides an organized and intuitive interface that helps users visualize room availability and scheduled reservations at a glance.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+- Display bookings for multiple rooms in one consolidated view
+- Calendar-style layout for easy navigation and readability
+- Clear visualization of room availability and reservation periods
+- Easy integration into any React application
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Use Case
+Ideal for:
+- Hotels
+- Meeting rooms
+- Coworking spaces
+- Appointment-based services
+- Any system that needs to manage room availability visually
