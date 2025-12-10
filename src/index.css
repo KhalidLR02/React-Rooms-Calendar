@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:wght@300;400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 52.5%;
+}
+
+body {
+  font-size: 1.8rem;
+}
+
+.scheduler_default_corner div {
+  display: none;
+}
+
+.event .scheduler_default_event_inner {
+  border-radius: 8px;
+  padding: 15px;
+  /* background: #39918c; */
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.event .scheduler_default_event_bar {
+  display: none;
+}
+
+.scheduler_default_rowheader_inner_text {
+  color: #2f435a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.scheduler_default_timeheader_float_inner,
+.scheduler_default_timeheadergroup_inner {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+.scheduler_default_timeheader_cell_inner {
+  text-transform: capitalize;
+}
+
+.scheduler_default_timeheader_cell_now .scheduler_default_timeheadercol_inner {
+  background-color: #2f435a !important;
+  color: #d7e9e8 !important;
+}
+.scheduler_default_timeheader_cell_now {
+  position: relative;
+}
+.scheduler_default_timeheader_cell_now::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 3px;
+  border-radius: 100px;
+  background-color: #d7e9e8;
+}
